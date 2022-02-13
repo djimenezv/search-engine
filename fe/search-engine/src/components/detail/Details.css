@@ -1,0 +1,33 @@
+.details-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 2em;
+}
+
+.details-container__header {
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.details-container__detail {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.details-container__detail h2 {
+    text-align: center;
+}
+
+.details-container__detail__desc {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 20px;
+}
+
+.details-container__detail__desc p {
+    font-size: 1.5rem;
+} 
